@@ -4,7 +4,7 @@ Private Repository for HW assignments of Stat 133 (Spring 2019)
 
 - Name: Dunia Azizi
 - Github username: AziziDunia
-- Email: address azizidunia@berkeleye.edu
+- Email: address azizidunia@berkeley.edu
 - Lab section: 112
 - GSI: Shuni Li
 
