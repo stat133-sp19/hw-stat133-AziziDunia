@@ -4,7 +4,7 @@ Dunia Azizi
 
 ### Introduction
 
-The **Golden State Warriors** are an American professional basketball team based in Oakland, California. They are known are known as one of the most successful teams in the basketball. They are very famous in **National Basketball Association ** games. NBA is a men's professional basketball league in North America; composed of 30 teams. It is widely considered to be the premier men's professional basketball league in the world. Some of the most famous and talents players of Golden State Varriors are Klay Thompson, Draymond Green, Kevin Durant, Stephen Curry, and Andre Iguodala.Green has the defense position, Curry and Thompson are the three point shooters, and Durant and Iguodala are the two point shooters.
+The **Golden State Warriors** are an American professional basketball team based in Oakland, California. They are known are known as one of the most successful teams in the basketball. They are very famous in National Basketball Association games. NBA is a men's professional basketball league in North America; composed of 30 teams. It is widely considered to be the premier men's professional basketball league in the world. Some of the most famous and talents players of Golden State Varriors are Klay Thompson, Draymond Green, Kevin Durant, Stephen Curry, and Andre Iguodala.Green has the defense position, Curry and Thompson are the three point shooters, and Durant and Iguodala are the two point shooters.
 
 **Stephen Curry, Klay Thompson, Draymond Green, and Kevin Durant during 2017 NBA Finals** <img src="../images/Golden-State-Warriors.jpg" width="80%" style="display: block; margin: auto;" />
 
