@@ -12,7 +12,7 @@ Private Repository for HW assignments of Stat 133 (Spring 2019)
 
 ## Assignments
 
-- [Workout 1](workout1)
+- [Workout 1](Workout01)
 - Workout 2
 - Workout 3
 
