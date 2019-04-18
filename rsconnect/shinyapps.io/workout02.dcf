@@ -1,0 +1,13 @@
+name: workout02
+title: workout02
+username:
+account: azizidunia
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 873535
+bundleId: 2020032
+url: https://azizidunia.shinyapps.io/workout02/
+when: 1555546325.06022
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .Rapp.history|.RData|Draft|Workout02
