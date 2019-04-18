@@ -43,7 +43,7 @@ ui <- fluidPage(
                      min = 0,
                      max = 50,
                      step = 1,
-                     value = 10),
+                     value = 20),
          selectInput("facet",
                      "Facet?",
                      choices = c("No", "Yes")))
