@@ -1,3 +1,4 @@
 # Workout02
 
-In this workout, we download raw data from basketball team known as the Golden State Warriors during the 2016 season and create dictionary for data. Make summaries and manipulate the data. Create various shot charts for the five players of the Golden State Warriors, interpret those data and combine them all together. Writing a report based on certain charts and tables.
+In this workout, students create a shiny app that allows them to visualize-in an interactive way-some of the saving/investing scenarios that we previously worked on our warmup06 for this class. The idea is to implement an app for the saving-investing modalities descriped in our section 4 of lab warmup6. These scenarios the three mode of investing is future value, annuity, and growing annuity
+
