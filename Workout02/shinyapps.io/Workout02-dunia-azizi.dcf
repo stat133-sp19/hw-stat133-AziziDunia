@@ -1,13 +1,13 @@
-name: Workout02-dunia-azizi
-title: Workout02-dunia-azizi
+name: workout02-dunia-azizi
+title: workout02-dunia-azizi
 username:
 account: azizidunia
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 873630
-bundleId: 2020056
+bundleId: 2020372
 url: https://azizidunia.shinyapps.io/Workout02-dunia-azizi/
-when: 1555547257.68235
+when: 1555559833.56839
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: .Rapp.history|.RData|Draft
+ignoredFiles: .Rapp.history|.RData|shinyapps.io/.DS_Store|shinyapps.io/Workout02-dunia-azizi.dcf
