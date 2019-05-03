@@ -1,0 +1,99 @@
+---
+output:
+  github_document:
+    html_preview: TRUE
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-",
+  warning = FALSE
+)
+```
+## Overview
+
+The goal of this `"binomial"` [R](http://www.r-project.org/) package is to provide functions for computing binomial distribution measures and probabilites.
+
+-  `bin_choose()` using factorial to caculate the number combinations in which successes an occur in trials.
+
+-  `bin_probability()` it takes three arguemnts sucess, trials, and prob to calculate bionomial probability of success in a given trial and given probability.
+
+-  `bin_distribution()` it takes two aruments trials & prob to calculate the probability distribution of success in a given trial and given probability. Returns a `"bindis"` object which is a `data.frame`.
+
+-  `bin_distribution()` it takes two aruments trials & prob and calculates the cumulated probability of each trial. Returns a `"bincum"` object which is a `data.frame`.
+
+-  `plot()` method for a `"bindis"` or `"bincum"` object to plot the distribution.
+
+-  `bin_variable()` it takes two aruments trials & prob and calculates an object of class caled "binvar" which is a binomial random variable object and creates a binomial variable object of class `"binvar"`
+
+-  `summary()` method for a `"binvar"` object.
+
+
+Given number of trials and probability of success:
+
+-  `bin_mean()` computes the mean.
+-  `bin_variance()` computes the variance.
+-  `bin_mode()` computes the mode.
+-  `bin_skewness()` computes the skewness.
+-  `bin_kurtosis()` computes the kurtosis.
+
+## Motivation
+
+This package has been developed to illustrate some of the concepts behind the creation of an R package.
+
+## Installation
+
+Install the development version from GitHub via the package `"devtools"`:
+
+```r
+# development version from GitHub:
+#install.packages("devtools") 
+
+# install "binomial" (without vignettes)
+devtools::install_github("/stat133-sp19/hw-stat133-azizidunia/binomial")
+
+# install "binomial" (with vignettes)
+devtools::install_github("/stat133-sp19/hw-stat133-azizidunia/binomial", build_vignettes = TRUE)
+```
+
+## Usage
+
+```{r}
+#call the binomial pacakge with library()
+library(binomial)
+
+# binomial random variable
+bin_var <- bin_variable(trials = 7,prob = 0.2)
+bin_var
+
+# binomial probability
+bin_prb <- bin_probability(success = 4, trials = 7, prob = 0.2)
+bin_prb
+
+# binomial distribution
+bin_dist <- bin_distribution(trials = 7, prob = 0.2)
+bin_dist
+
+# plotting binomial ditribution
+plot(bin_dist)
+
+# binomial cumulative distribution
+bin_cum <- bin_cumulative(7, 0.2)
+bin_cum 
+
+# plotting binomial cumulative distribution
+plot(bin_cum )
+
+# binomial random variable summary statistics
+summary(bin_var)
+
+# summary measures
+bin_mean(2, 0.2)
+bin_variance(2, 0.2)
+bin_mode(2, 0.2)
+bin_skewnees(2, 0.2)
+bin_kurtosis(2, 0.2)
+```
+
